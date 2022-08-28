@@ -11,8 +11,7 @@ const Searchbar = (props) => {
   };
 
   const onButtonClickHandler = () => {
-    // onSearch(search);
-    console.log("pokemon", search)
+    onSearch(search);
   };
 
   return (
@@ -25,7 +24,7 @@ const Searchbar = (props) => {
         />
       </div>
       <div className="searchbar-btn">
-        <button onClick={onButtonClickHandler}>Search</button>
+        <button onClick={onButtonClickHandler}>Buscar</button>
       </div>
     </div>
   );

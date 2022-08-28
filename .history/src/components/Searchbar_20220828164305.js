@@ -11,8 +11,8 @@ const Searchbar = (props) => {
   };
 
   const onButtonClickHandler = () => {
-    // onSearch(search);
-    console.log("pokemon", search)
+    onSearch(search);
+    console.log("pokemon")
   };
 
   return (
